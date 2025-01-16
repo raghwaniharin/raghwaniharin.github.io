@@ -2,6 +2,70 @@
     and have a universal font
 */
 
+
+/* For small devices (phones, 600px and below) */
+@media (max-width: 600px) {
+  .header {
+    position: static; /* Avoid issues with fixed positioning on small screens */
+    text-align: center; /* Center align navigation */
+  }
+
+  .rightlink, .leftlink {
+    float: none; /* Disable float */
+    display: block; /* Stack links vertically */
+    text-align: center;
+  }
+
+  .pgtitle {
+    font-size: 20px; /* Reduce font size */
+    padding: 5px;
+  }
+
+  .box, .box1 {
+    flex-direction: column; /* Stack items vertically */
+    gap: 0; /* Reduce spacing */
+    text-align: center;
+  }
+
+  .left, .right {
+    width: 100%; /* Make columns full width */
+  }
+
+  .pic1 {
+    width: 80%; /* Scale down profile picture */
+    height: auto;
+  }
+
+  button {
+    font-size: 14px; /* Adjust button size */
+    padding: 8px 16px;
+  }
+}
+
+/* For medium devices (tablets, 601px to 1024px) */
+@media (max-width: 1024px) {
+  .header {
+    padding: 10px 0; /* Reduce padding */
+  }
+
+  .box, .box1 {
+    gap: 10px; /* Reduce spacing between items */
+  }
+
+  .icon-container .icon {
+    flex: 1 1 calc(100% / 5 - 10px); /* Adjust icons for smaller rows */
+  }
+
+  .icon-container {
+    gap: 10px; /* Reduce gap between icons */
+  }
+
+  .icon-label {
+    font-size: 12px; /* Smaller font for labels */
+  }
+}
+
+
     * {
       box-sizing: border-box;
       font-family:Verdana ;

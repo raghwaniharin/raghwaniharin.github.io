@@ -20,10 +20,10 @@ const Projects = () => (
               respective target audiences.
             </p>
             <a href="https://github.com/Jandalslap/MIOK_Quick_Response_App" >
-              <img src="rs/icons/git.jpg" alt="GitHub" className="imgs5"  />
+              <img src="/rs/icons/git.jpg" alt="GitHub" className="imgs5"  />
             </a>      
             <a href="https://www.massey.ac.nz/" >
-              <img src="\icons\massey-university2755-1342116695.jpg" alt="GitHub" className="imgs5"  />
+              <img src="/icons/massey-university2755-1342116695.jpg" alt="GitHub" className="imgs5"  />
             </a>
             </div>
               <div className="right">
@@ -41,6 +41,7 @@ const Projects = () => (
           <div className="box1">
           <div className="left">
             <h1 className="redtitle">Game Development</h1>
+
 
             <h3>Godot 3.5.3 - GdScript</h3>
             
@@ -106,7 +107,7 @@ const Projects = () => (
           </div>
           <div className="right">
               <video width="320" height="240" controls>
-                <source src="\rs\Cow_Management.mp4" type="video/mp4">
+                <source src="/rs/Cow_Management.mp4" type="video/mp4">
                 </source>
               </video>
               </div>
