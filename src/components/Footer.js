@@ -5,7 +5,7 @@ const Footer = () => (
   <footer>
     <div className="footer">
       <p>
-        COPYRIGHT<sup>&copy;</sup> HARIN RAMJI 2025.
+        COPYRIGHT<sup>&copy;</sup> HARIN RAMJI 2025.<br></br>POWERED BY REACT
         </p>
         <div className="footer_icons">
           <a href="mailto:harinharish2002@gmail.com" className="leftlink">
