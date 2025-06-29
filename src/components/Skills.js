@@ -9,6 +9,30 @@ const Skills = () => (
     </div>
     <br></br>
     <div className="icon-container">
+    <div className="icon">
+        <a href="https://ml.cms.waikato.ac.nz/weka" target="_blank" rel="noopener noreferrer">
+        <img src="/icons/weka1.png" alt="WEKA icon" className="icon-image" />
+        </a>
+        <span className="icon-label">WEKA</span>
+      </div>
+      <div className="icon">
+        <a href="https://www.selenium.dev/" target="_blank" rel="noopener noreferrer">
+        <img src="/icons/selenium.png" alt="Selenium icon" className="icon-image" />
+        </a>
+        <span className="icon-label">Selenium</span>
+      </div>
+      <div className="icon">
+        <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank" rel="noopener noreferrer">
+        <img src="/icons/html-5-svgrepo-com.png" alt="PowerBI icon" className="icon-image" />
+        </a>
+        <span className="icon-label">PowerBI</span>
+      </div>
+      <div className="icon">
+        <a href="https://www.canva.com/" target="_blank" rel="noopener noreferrer">
+        <img src="/icons/canva.png" alt="Canva icon" className="icon-image" />
+        </a>
+        <span className="icon-label">Canva</span>
+      </div>
       <div className="icon">
         <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank" rel="noopener noreferrer">
         <img src="/icons/html-5-svgrepo-com.png" alt="HTML5 icon" className="icon-image" />

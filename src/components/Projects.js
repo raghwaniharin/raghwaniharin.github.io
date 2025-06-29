@@ -6,6 +6,88 @@ const Projects = () => (
       <h1>MY PROJECTS</h1>
     </div>
     <div>
+    <div className="row">
+  <div className="column">
+    <div className="box1">
+      <div className="left">
+        <h1 className="redtitle">Hotel Data Analysis</h1>
+        <h3>Tools: WEKA, MS Excel, Power BI, Canva</h3>
+
+        <p className="listtg">
+          Conducted data analysis on hotel reservation data for Jaffer Hotels, a company with
+          resorts on the coast of Kenya. The analysis was first performed using publicly available
+          tools like WEKA and MS Excel for insights and reporting.
+        </p>
+
+        <p className="listtg">
+          A follow-up visual analysis was completed using Power BI, with a presentation prepared for
+          the client using Canva to communicate insights and drive conclusions.
+        </p>
+      </div>
+
+      <div className="right">
+        <div className="button-container">
+          <button 
+            title="View WEKA Project" 
+            onClick={() => window.open("https://github.com/raghwaniharin/Info_703_Big_Data_Analytics_Assessment_ONE", "_blank")}
+          >
+            GO TO WEKA PROJECT
+          </button>
+          <button 
+            title="View PowerBI Project" 
+            onClick={() => window.open("https://github.com/raghwaniharin/INFO703_Big_Data_Analytics_A2", "_blank")}
+          >
+            GO TO POWERBI PROJECT
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div className="row">
+  <div className="column">
+    <div className="box1">
+      <div className="left">
+        <h1 className="redtitle">Selenium Automation & MSTest Unit Testing</h1>
+        <h3>Tools: Selenium WebDriver, MSTest, Visual Studio</h3>
+
+        <p className="listtg">
+          Used <strong>Selenium WebDriver</strong> to automate tasks such as opening Calculator.net and performing basic 
+          calculations. Also created scripts to extract all links from a webpage and set dropdown list values programmatically.
+        </p>
+
+        <p className="listtg">
+          Additionally, created unit tests using <strong>MSTest</strong> for a custom implementation of a doubly linked list. 
+          The project involved adding, editing, and removing nodes. My role included identifying errors in these functions, 
+          modifying the logic, and retesting to ensure the list worked efficiently and correctly.
+        </p>
+      </div>
+
+      <div className="right">
+        <div className="button-container">
+          <button
+            title="View Selenium Project"
+            onClick={() =>
+              window.open("https://github.com/raghwaniharin/Selenium-Automation-Tests", "_blank")
+            }
+          >
+            GO TO SELENIUM PROJECT
+          </button>
+          <button
+            title="View MSTest Project"
+            onClick={() =>
+              window.open("https://github.com/raghwaniharin/MSTest-DoublyLinkedList", "_blank")
+            }
+          >
+            GO TO MSTEST PROJECT
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
       <div className="row">
         <div className="column">
           <div className="box1">
