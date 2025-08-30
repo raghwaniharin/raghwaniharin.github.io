@@ -8,10 +8,13 @@ const Projects = () => (
     <div>
     <div className="row">
     <div className="column">
+
+
+
     <div className="box1">
       <div className="left">
         <h1 className="redtitle">KaiMap</h1>
-        <h3>JavaScript | Public Repository</h3>
+        <h3>JavaScript || API </h3>
         <p className="listtg">
           A web project providing <strong>real-time food accessibility and price insights</strong> 
           across New Zealand. It focuses on helping communities better understand food affordability 
@@ -24,21 +27,7 @@ const Projects = () => (
     </div>
   </div>
 
-  <div className="column">
-    <div className="box1">
-      <div className="left">
-        <h1 className="redtitle">WorldExplorer</h1>
-        <h3>C# (.NET Backend) & HTML Frontend | Private Repository</h3>
-        <p className="listtg">
-          A learning project aimed at understanding the integration of a 
-          <strong> .NET backend with an HTML/CSS frontend</strong>. The focus was on building 
-          a simple yet functional system that demonstrates client-server interactions and 
-          introduces concepts of web application development.
-        </p>
-        {/* Since private repo, no GitHub link here */}
-      </div>
-    </div>
-  </div>
+  
 
   <div className="column">
     <div className="box1">
@@ -171,6 +160,24 @@ const Projects = () => (
           </div>
         </div>
         <br></br>
+        <div className="column">
+    <div className="box1">
+      <div className="left">
+        <h1 className="redtitle">WorldExplorer</h1>
+        <h3>C# (.NET Backend) & HTML Frontend | Private Repository</h3>
+        <p className="listtg">
+          A learning project aimed at understanding the integration of a 
+          <strong> .NET backend with an HTML/CSS frontend</strong>. The focus was on building 
+          a simple yet functional system that demonstrates client-server interactions and 
+          introduces concepts of web application development.
+        </p>
+        
+        <a href="https://github.com/raghwaniharin/WorldExplorer" target="_blank" rel="noopener noreferrer">
+          <img src="/rs/icons/git.jpg" alt="GitHub" className="imgs5" />
+        </a>
+      </div>
+    </div>
+  </div>
         <div className="row">
         <div className="column">
           <div className="box1">
