@@ -7,9 +7,7 @@ const Projects = () => (
     </div>
     <div>
     <div className="row">
-  <div className="column">
-    <div className="row">
-  <div className="column">
+    <div className="column">
     <div className="box1">
       <div className="left">
         <h1 className="redtitle">KaiMap</h1>
@@ -61,6 +59,8 @@ const Projects = () => (
   </div>
 </div>
 
+    <div className="row">
+  <div className="column">
     <div className="box1">
       <div className="left">
         <h1 className="redtitle">Hotel Data Analysis</h1>
