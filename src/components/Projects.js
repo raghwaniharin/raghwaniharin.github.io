@@ -5,6 +5,23 @@ const Projects = () => (
     <div className="pgtitle" id="projects">
       <h1>MY PROJECTS</h1>
     </div>
+    {/* Kaimap*/}
+        <div className="column">
+          <div className="box">
+            <h1 className="redtitle">Kai Map</h1>
+            <h3>JavaScript | APi</h3>
+            <h4><i>Under Development</i></h4>
+            <p className="listtg">
+          A web project providing <strong>real-time food accessibility and price insights</strong> 
+          across New Zealand. It focuses on helping communities better understand food affordability 
+          and accessibility trends using interactive maps and data visualizations.
+        </p>
+        <br /><br />
+            <a href="https://github.com/raghwaniharin/KaiMap" >
+        <img src="rs/icons/git.jpg" alt="GitHub" className="imgs5"  />
+      </a>
+          </div>
+        </div>
     <div>
     <div className="row">
   <div className="column">
@@ -213,50 +230,39 @@ const Projects = () => (
       </a>
           </div>
         </div>
-
+              
+              {/* world explorer*/}
         <div className="column">
           <div className="box">
-            <h1 className="redtitle">Convert Oracle Database to SQL RDBMS</h1>
-            <h3>SQL Server Management Studio</h3>
+            <h1 className="redtitle">WorldExplorer</h1>
+            <h4><i>Under Development</i></h4>
+            <h3>C# (.NET Backend) & HTML Frontend | Private Repository</h3>
             <p className="listtg">
-              Convert a company's Oracle database to SQL and redesign all the tables and sort through
-              the data to create new relationships. Rewrite field names and change field types according to
-              SQL Standards.
+              A learning project aimed at understanding the integration of a 
+          <strong> .NET backend with an HTML/CSS frontend</strong>. The focus was on building 
+          a simple yet functional system that demonstrates client-server interactions and 
+          introduces concepts of web application development.
             </p>
             <br /><br />
-            <a href="https://github.com/raghwaniharin/SQL-601-" >
+            <a href="https://github.com/raghwaniharin/WorldExplorer" >
         <img src="rs/icons/git.jpg" alt="GitHub" className="imgs5"  />
       </a>
           </div>
         </div>
-
+            {/* CHESS*/}
         <div className="column">
           <div className="box">
-            <h1 className="redtitle">Convert Oracle Database to SQL RDBMS</h1>
-            <h3>SQL Server Management Studio</h3>
+            <h1 className="redtitle">Chess Game </h1>
+            <h4><i>Under Development</i></h4>
+            <h3>JavaScript | CSS </h3>
             <p className="listtg">
-              Convert a company's Oracle database to SQL and redesign all the tables and sort through
-              the data to create new relationships. Rewrite field names and change field types according to
-              SQL Standards.
+              A browser-based <strong>Chess Game</strong> built using JavaScript and jQuery. 
+          The implementation covers piece setup, valid move calculations, rendering the board, 
+          capturing pieces, and resetting game state. This project was designed to strengthen 
+          algorithmic thinking and DOM manipulation skills.
             </p>
             <br /><br />
-            <a href="https://github.com/raghwaniharin/SQL-601-" >
-        <img src="rs/icons/git.jpg" alt="GitHub" className="imgs5"  />
-      </a>
-          </div>
-        </div>
-
-        <div className="column">
-          <div className="box">
-            <h1 className="redtitle">Convert Oracle Database to SQL RDBMS</h1>
-            <h3>SQL Server Management Studio</h3>
-            <p className="listtg">
-              Convert a company's Oracle database to SQL and redesign all the tables and sort through
-              the data to create new relationships. Rewrite field names and change field types according to
-              SQL Standards.
-            </p>
-            <br /><br />
-            <a href="https://github.com/raghwaniharin/SQL-601-" >
+            <a href="https://github.com/raghwaniharin/ChessGame" >
         <img src="rs/icons/git.jpg" alt="GitHub" className="imgs5"  />
       </a>
           </div>
