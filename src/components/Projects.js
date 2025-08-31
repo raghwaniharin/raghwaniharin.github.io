@@ -7,48 +7,6 @@ const Projects = () => (
     </div>
     <div>
     <div className="row">
-    <div className="column">
-
-
-
-    <div className="box1">
-      <div className="left">
-        <h1 className="redtitle">KaiMap</h1>
-        <h3>JavaScript || API </h3>
-        <p className="listtg">
-          A web project providing <strong>real-time food accessibility and price insights</strong> 
-          across New Zealand. It focuses on helping communities better understand food affordability 
-          and accessibility trends using interactive maps and data visualizations.
-        </p>
-        <a href="https://github.com/raghwaniharin/KaiMap" target="_blank" rel="noopener noreferrer">
-          <img src="/rs/icons/git.jpg" alt="GitHub" className="imgs5" />
-        </a>
-      </div>
-    </div>
-  </div>
-
-  
-
-  <div className="column">
-    <div className="box1">
-      <div className="left">
-        <h1 className="redtitle">ChessGame</h1>
-        <h3>JavaScript | Public Repository</h3>
-        <p className="listtg">
-          A browser-based <strong>Chess Game</strong> built using JavaScript and jQuery. 
-          The implementation covers piece setup, valid move calculations, rendering the board, 
-          capturing pieces, and resetting game state. This project was designed to strengthen 
-          algorithmic thinking and DOM manipulation skills.
-        </p>
-        <a href="https://github.com/raghwaniharin/ChessGame" target="_blank" rel="noopener noreferrer">
-          <img src="/rs/icons/git.jpg" alt="GitHub" className="imgs5" />
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-    <div className="row">
   <div className="column">
     <div className="box1">
       <div className="left">
@@ -160,24 +118,7 @@ const Projects = () => (
           </div>
         </div>
         <br></br>
-        <div className="column">
-    <div className="box1">
-      <div className="left">
-        <h1 className="redtitle">WorldExplorer</h1>
-        <h3>C# (.NET Backend) & HTML Frontend | Private Repository</h3>
-        <p className="listtg">
-          A learning project aimed at understanding the integration of a 
-          <strong> .NET backend with an HTML/CSS frontend</strong>. The focus was on building 
-          a simple yet functional system that demonstrates client-server interactions and 
-          introduces concepts of web application development.
-        </p>
         
-        <a href="https://github.com/raghwaniharin/WorldExplorer" target="_blank" rel="noopener noreferrer">
-          <img src="/rs/icons/git.jpg" alt="GitHub" className="imgs5" />
-        </a>
-      </div>
-    </div>
-  </div>
         <div className="row">
         <div className="column">
           <div className="box1">
@@ -274,6 +215,54 @@ const Projects = () => (
         </div>
 
         <div className="column">
+          <div className="box">
+            <h1 className="redtitle">Convert Oracle Database to SQL RDBMS</h1>
+            <h3>SQL Server Management Studio</h3>
+            <p className="listtg">
+              Convert a company's Oracle database to SQL and redesign all the tables and sort through
+              the data to create new relationships. Rewrite field names and change field types according to
+              SQL Standards.
+            </p>
+            <br /><br />
+            <a href="https://github.com/raghwaniharin/SQL-601-" >
+        <img src="rs/icons/git.jpg" alt="GitHub" className="imgs5"  />
+      </a>
+          </div>
+        </div>
+
+        <div className="column">
+          <div className="box">
+            <h1 className="redtitle">Convert Oracle Database to SQL RDBMS</h1>
+            <h3>SQL Server Management Studio</h3>
+            <p className="listtg">
+              Convert a company's Oracle database to SQL and redesign all the tables and sort through
+              the data to create new relationships. Rewrite field names and change field types according to
+              SQL Standards.
+            </p>
+            <br /><br />
+            <a href="https://github.com/raghwaniharin/SQL-601-" >
+        <img src="rs/icons/git.jpg" alt="GitHub" className="imgs5"  />
+      </a>
+          </div>
+        </div>
+
+        <div className="column">
+          <div className="box">
+            <h1 className="redtitle">Convert Oracle Database to SQL RDBMS</h1>
+            <h3>SQL Server Management Studio</h3>
+            <p className="listtg">
+              Convert a company's Oracle database to SQL and redesign all the tables and sort through
+              the data to create new relationships. Rewrite field names and change field types according to
+              SQL Standards.
+            </p>
+            <br /><br />
+            <a href="https://github.com/raghwaniharin/SQL-601-" >
+        <img src="rs/icons/git.jpg" alt="GitHub" className="imgs5"  />
+      </a>
+          </div>
+        </div>
+
+        <div className="column">
           <div className="box1">
                 <div className="left">
                 <h1 className="redtitle">FALAWEWE - African Apparel Store</h1>
@@ -318,6 +307,7 @@ const Projects = () => (
       </div>
     </div>
   </div>
+  
 );
 
 export default Projects;
