@@ -14,7 +14,7 @@ const Projects = () => (
     <div className="box1">
       <div className="left">
         <h1 className="redtitle">KaiMap</h1>
-        <h3>JavaScript || API </h3>
+        <h3>JavaScript || API || Egg.js </h3>
         <p className="listtg">
           A web project providing <strong>real-time food accessibility and price insights</strong> 
           across New Zealand. It focuses on helping communities better understand food affordability 
