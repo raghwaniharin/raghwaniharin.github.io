@@ -5,183 +5,255 @@ const Projects = () => (
     <div className="pgtitle" id="projects">
       <h1>MY PROJECTS</h1>
     </div>
-    {/* Kaimap*/}
+    <div>
+      <div className="row">
         <div className="column">
-          <div className="box">
-            <h1 className="redtitle">Kai Map</h1>
-            <h3>JavaScript | APi</h3>
-            <h4><i>Under Development</i></h4>
-            <p className="listtg">
-          A web project providing <strong>real-time food accessibility and price insights</strong> 
-          across New Zealand. It focuses on helping communities better understand food affordability 
-          and accessibility trends using interactive maps and data visualizations.
-        </p>
-        <br /><br />
-            <a href="https://github.com/raghwaniharin/KaiMap" >
-        <img src="rs/icons/git.jpg" alt="GitHub" className="imgs5"  />
-      </a>
+          <div className="box1">
+            <div className="left">
+              <h1 className="redtitle">KaiMap - Grocery Price Comparison Platform</h1>
+              <h3>Full-Stack Development</h3>
+
+              <p className="listtg">
+                Developed a comprehensive full-pipeline application that retrieves and aggregates grocery prices 
+                from stores around Hamilton. The platform enables users to search for their groceries and find 
+                the cheapest options available, including store locations and current pricing.
+              </p>
+
+              <p className="listtg">
+                This project demonstrates end-to-end development including data scraping, backend processing, 
+                and a user-friendly interface for price comparison and shopping optimization.
+              </p>
+            </div>
+
+            <div className="right">
+              <div className="button-container">
+                <button 
+                  title="Private Repository" 
+                  style={{backgroundColor: "#666", cursor: "default"}}
+                  disabled
+                >
+                  PRIVATE REPOSITORY
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-    <div>
-    <div className="row">
-  <div className="column">
-    <div className="box1">
-      <div className="left">
-        <h1 className="redtitle">Hotel Data Analysis</h1>
-        <h3>Tools: WEKA, MS Excel, Power BI, Canva</h3>
-
-        <p className="listtg">
-          Conducted data analysis on hotel reservation data for Jaffer Hotels, a company with
-          resorts on the coast of Kenya. The analysis was first performed using publicly available
-          tools like WEKA and MS Excel for insights and reporting.
-        </p>
-
-        <p className="listtg">
-          A follow-up visual analysis was completed using Power BI, with a presentation prepared for
-          the client using Canva to communicate insights and drive conclusions.
-        </p>
       </div>
-
-      <div className="right">
-        <div className="button-container">
-          <button 
-            title="View WEKA Project" 
-            onClick={() => window.open("https://github.com/raghwaniharin/Info_703_Big_Data_Analytics_Assessment_ONE", "_blank")}
-          >
-            GO TO WEKA PROJECT
-          </button>
-          <button 
-            title="View PowerBI Project" 
-            onClick={() => window.open("https://github.com/raghwaniharin/INFO703_Big_Data_Analytics_A2", "_blank")}
-          >
-            GO TO POWERBI PROJECT
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div className="row">
-  <div className="column">
-    <div className="box1">
-      <div className="left">
-        <h1 className="redtitle">Selenium Automation & MSTest Unit Testing</h1>
-        <h3>Tools: Selenium WebDriver, MSTest, Visual Studio</h3>
-
-        <p className="listtg">
-          Used <strong>Selenium WebDriver</strong> to automate tasks such as opening Calculator.net and performing basic 
-          calculations. Also created scripts to extract all links from a webpage and set dropdown list values programmatically.
-        </p>
-
-        <p className="listtg">
-          Additionally, created unit tests using <strong>MSTest</strong> for a custom implementation of a doubly linked list. 
-          The project involved adding, editing, and removing nodes. My role included identifying errors in these functions, 
-          modifying the logic, and retesting to ensure the list worked efficiently and correctly.
-        </p>
-      </div>
-
-      <div className="right">
-        <div className="button-container">
-          <button
-            title="View Selenium Project"
-            onClick={() =>
-              window.open("https://github.com/raghwaniharin/Selenium-Automation-Tests", "_blank")
-            }
-          >
-            GO TO SELENIUM PROJECT
-          </button>
-          <button
-            title="View MSTest Project"
-            onClick={() =>
-              window.open("https://github.com/raghwaniharin/MSTest-DoublyLinkedList", "_blank")
-            }
-          >
-            GO TO MSTEST PROJECT
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
       <div className="row">
         <div className="column">
           <div className="box1">
             <div className="left">
-            <h1 className="redtitle">MIOK Safety App</h1>
-            <h3>Android Studio - Kotlin</h3>
-            <h4>In collaboration with Massey University</h4>
-            <p className="listtg">
-              A group project to develop two mobile applications on behalf of AWAI Massey University. MIOK Quick Response
-              App for protecting children at home from domestic violence and the companion MIOK Information App for Parents and Caregivers.
-              Each app is unique with its own navigation features and design implementation aimed to resonate with their
-              respective target audiences.
-            </p>
-            <a href="https://github.com/Jandalslap/MIOK_Quick_Response_App" >
-              <img src="/rs/icons/git.jpg" alt="GitHub" className="imgs5"  />
-            </a>      
-            <a href="https://www.massey.ac.nz/" >
-              <img src="/icons/massey-university2755-1342116695.jpg" alt="GitHub" className="imgs5"  />
-            </a>
+              <h1 className="redtitle">GetAJob App - Knowledgeware Internship</h1>
+              <h3>Mobile Application Development</h3>
+
+              <p className="listtg">
+                Developed as part of an internship with Knowledgeware company. A job search and application 
+                platform designed to streamline the job hunting process for users.
+              </p>
+
+              <p className="listtg">
+                This internship project provided hands-on experience in professional mobile app development 
+                and working within a company environment on real-world applications.
+              </p>
             </div>
-              <div className="right">
+
+            <div className="right">
+              <div className="button-container">
+                <p style={{color: "#999", fontStyle: "italic"}}>Internship Project - No Public Repository</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="column">
+          <div className="box1">
+            <div className="left">
+              <h1 className="redtitle">Budget App - Mobile <span style={{color: "#ff6b6b", fontSize: "0.8em"}}>(In Progress)</span></h1>
+              <h3>React Native / Mobile Development</h3>
+
+              <p className="listtg">
+                A mobile application designed to help users track their expenses, manage budgets, and 
+                gain insights into their spending habits. Features include expense categorization, 
+                budget planning, and financial reporting.
+              </p>
+
+              <p className="listtg">
+                Currently under active development with ongoing feature additions and improvements.
+              </p>
+            </div>
+
+            <div className="right">
+              <div className="button-container">
+                <button 
+                  title="View Project Repository" 
+                  onClick={() => window.open("https://github.com/raghwaniharin/BudgetApp", "_blank")}
+                >
+                  GO TO REPOSITORY
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="column">
+          <div className="box1">
+            <div className="left">
+              <h1 className="redtitle">Hotel Data Analysis</h1>
+              <h3>Tools: WEKA, MS Excel, Power BI, Canva</h3>
+
+              <p className="listtg">
+                Conducted data analysis on hotel reservation data for Jaffer Hotels, a company with
+                resorts on the coast of Kenya. The analysis was first performed using publicly available
+                tools like WEKA and MS Excel for insights and reporting.
+              </p>
+
+              <p className="listtg">
+                A follow-up visual analysis was completed using Power BI, with a presentation prepared for
+                the client using Canva to communicate insights and drive conclusions.
+              </p>
+            </div>
+
+            <div className="right">
+              <div className="button-container">
+                <button 
+                  title="View WEKA Project" 
+                  onClick={() => window.open("https://github.com/raghwaniharin/Info_703_Big_Data_Analytics_Assessment_ONE", "_blank")}
+                >
+                  GO TO WEKA PROJECT
+                </button>
+                <button 
+                  title="View PowerBI Project" 
+                  onClick={() => window.open("https://github.com/raghwaniharin/INFO703_Big_Data_Analytics_A2", "_blank")}
+                >
+                  GO TO POWERBI PROJECT
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="column">
+          <div className="box1">
+            <div className="left">
+              <h1 className="redtitle">Selenium Automation & MSTest Unit Testing</h1>
+              <h3>Tools: Selenium WebDriver, MSTest, Visual Studio</h3>
+
+              <p className="listtg">
+                Used <strong>Selenium WebDriver</strong> to automate tasks such as opening Calculator.net and performing basic 
+                calculations. Also created scripts to extract all links from a webpage and set dropdown list values programmatically.
+              </p>
+
+              <p className="listtg">
+                Additionally, created unit tests using <strong>MSTest</strong> for a custom implementation of a doubly linked list. 
+                The project involved adding, editing, and removing nodes. My role included identifying errors in these functions, 
+                modifying the logic, and retesting to ensure the list worked efficiently and correctly.
+              </p>
+            </div>
+
+            <div className="right">
+              <div className="button-container">
+                <button
+                  title="View Selenium Project"
+                  onClick={() =>
+                    window.open("https://github.com/raghwaniharin/Selenium-Automation-Tests", "_blank")
+                  }
+                >
+                  GO TO SELENIUM PROJECT
+                </button>
+                <button
+                  title="View MSTest Project"
+                  onClick={() =>
+                    window.open("https://github.com/raghwaniharin/MSTest-DoublyLinkedList", "_blank")
+                  }
+                >
+                  GO TO MSTEST PROJECT
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="column">
+          <div className="box1">
+            <div className="left">
+              <h1 className="redtitle">MIOK Safety App</h1>
+              <h3>Android Studio - Kotlin</h3>
+              <h4>In collaboration with Massey University</h4>
+              <p className="listtg">
+                A group project to develop two mobile applications on behalf of AWAI Massey University. MIOK Quick Response
+                App for protecting children at home from domestic violence and the companion MIOK Information App for Parents and Caregivers.
+                Each app is unique with its own navigation features and design implementation aimed to resonate with their
+                respective target audiences.
+              </p>
+              <a href="https://github.com/Jandalslap/MIOK_Quick_Response_App" >
+                <img src="/rs/icons/git.jpg" alt="GitHub" className="imgs5"  />
+              </a>      
+              <a href="https://www.massey.ac.nz/" >
+                <img src="/icons/massey-university2755-1342116695.jpg" alt="GitHub" className="imgs5"  />
+              </a>
+            </div>
+            <div className="right">
               <video width="320" height="240" controls>
                 <source src="/rs/MIOK_Demo.mp4" type="video/mp4">
                 </source>
               </video>
-              </div> 
-            
+            </div> 
           </div>
         </div>
-        <br></br>
+      </div>
+      <br></br>
         
-        <div className="row">
+      <div className="row">
         <div className="column">
           <div className="box1">
-          <div className="left">
-            <h1 className="redtitle">Game Development</h1>
+            <div className="left">
+              <h1 className="redtitle">Game Development</h1>
 
-
-            <h3>Godot 3.5.3 - GdScript</h3>
-            
-            <h4>Dangerous Dag</h4>
-            <p>2D Platformer game to familiarise ourselves with the IDE and to learn 
-              the basics of game development. Dag is looking for the ultimate pie 
-              and his journey has led him to space. His mission is to collect  the 3 ingredients and hope 
-              Space Sam gives him ethe ultimate pie recipe. 
-            </p>
-            <br /><br />
-            <h4>Fission Fiasco</h4>
-            {/* Add video for Fission Fiasco */}
-            <p>
-              2D platformer game simulating a nuclear reactor meltdown.<br></br>
-               Nirav has to go through all the rooms and enable  the quarantine measures to 
-               prevent nuclear fallout in the siberian peninsula.<br></br>
-               Some of his coworkers had not followed proper protocol and have turned into zombies 
-               so Nirav now also has to inject them witht the antidote to rescue them
-
-            </p>
+              <h3>Godot 3.5.3 - GdScript</h3>
+              
+              <h4>Dangerous Dag</h4>
+              <p>2D Platformer game to familiarise ourselves with the IDE and to learn 
+                the basics of game development. Dag is looking for the ultimate pie 
+                and his journey has led him to space. His mission is to collect  the 3 ingredients and hope 
+                Space Sam gives him ethe ultimate pie recipe. 
+              </p>
+              <br /><br />
+              <h4>Fission Fiasco</h4>
+              {/* Add video for Fission Fiasco */}
+              <p>
+                2D platformer game simulating a nuclear reactor meltdown.<br></br>
+                Nirav has to go through all the rooms and enable  the quarantine measures to 
+                prevent nuclear fallout in the siberian peninsula.<br></br>
+                Some of his coworkers had not followed proper protocol and have turned into zombies 
+                so Nirav now also has to inject them witht the antidote to rescue them
+              </p>
             </div>
             <div className="right">
-            <div className="button-container">
-                      <button 
-                        title="PLAY GAME" 
-                        onClick={() => window.open("https://skrilde3209.itch.io/fission-fiasco", "_blank")}
-                      >
-                        PLAY FISSION FIASCO
-                      </button>
-                      <button 
-                        title="PLAY GAME" 
-                        onClick={() => window.open("https://skrilde3209.itch.io/dangerous-dag", "_blank")}
-                      >
-                        PLAY DANGEROUS DAG
-                      </button>
-                    </div>
-
+              <div className="button-container">
+                <button 
+                  title="PLAY GAME" 
+                  onClick={() => window.open("https://skrilde3209.itch.io/fission-fiasco", "_blank")}
+                >
+                  PLAY FISSION FIASCO
+                </button>
+                <button 
+                  title="PLAY GAME" 
+                  onClick={() => window.open("https://skrilde3209.itch.io/dangerous-dag", "_blank")}
+                >
+                  PLAY DANGEROUS DAG
+                </button>
+              </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
 
@@ -189,29 +261,27 @@ const Projects = () => (
         <div className="column">
           <div className="box1">
             <div className="left">
-            <h1 className="redtitle">Livestock Management Application</h1>
-            <h3>Visual Studio Code - .Net MAUI & C# & SQL</h3>
-            <h4>Application Development</h4>
-            <p>Create an animal management system on Visual Studio
-              such that farmer can keep a record of all animals 
-              and their information.<br></br>
-              It also has the abilities to add animals edit them or delete them.<br></br>
-              All these features are put on different pages such as to 
-              enable the handler to give restricted/limited access to certain people
-              
-            </p>
-            <br /><br />
-            <a href="https://github.com/raghwaniharin/Animal-Management--App" >
-            <img src="rs/icons/git.jpg" alt="GitHub" className="imgs5"  />
-           </a>
-          </div>
-          <div className="right">
+              <h1 className="redtitle">Livestock Management Application</h1>
+              <h3>Visual Studio Code - .Net MAUI & C# & SQL</h3>
+              <h4>Application Development</h4>
+              <p>Create an animal management system on Visual Studio
+                such that farmer can keep a record of all animals 
+                and their information.<br></br>
+                It also has the abilities to add animals edit them or delete them.<br></br>
+                All these features are put on different pages such as to 
+                enable the handler to give restricted/limited access to certain people
+              </p>
+              <br /><br />
+              <a href="https://github.com/raghwaniharin/Animal-Management--App" >
+                <img src="rs/icons/git.jpg" alt="GitHub" className="imgs5"  />
+              </a>
+            </div>
+            <div className="right">
               <video width="320" height="240" controls>
                 <source src="/rs/Cow_Management.mp4" type="video/mp4">
                 </source>
               </video>
-              </div>
-
+            </div>
           </div>
         </div>
 
@@ -226,77 +296,87 @@ const Projects = () => (
             </p>
             <br /><br />
             <a href="https://github.com/raghwaniharin/SQL-601-" >
-        <img src="rs/icons/git.jpg" alt="GitHub" className="imgs5"  />
-      </a>
+              <img src="rs/icons/git.jpg" alt="GitHub" className="imgs5"  />
+            </a>
           </div>
         </div>
-              
-              {/* world explorer*/}
+
         <div className="column">
           <div className="box">
-            <h1 className="redtitle">WorldExplorer</h1>
-            <h4><i>Under Development</i></h4>
-            <h3>C# (.NET Backend) & HTML Frontend | Private Repository</h3>
+            <h1 className="redtitle">Convert Oracle Database to SQL RDBMS</h1>
+            <h3>SQL Server Management Studio</h3>
             <p className="listtg">
-              A learning project aimed at understanding the integration of a 
-          <strong> .NET backend with an HTML/CSS frontend</strong>. The focus was on building 
-          a simple yet functional system that demonstrates client-server interactions and 
-          introduces concepts of web application development.
+              Convert a company's Oracle database to SQL and redesign all the tables and sort through
+              the data to create new relationships. Rewrite field names and change field types according to
+              SQL Standards.
             </p>
             <br /><br />
-            <a href="https://github.com/raghwaniharin/WorldExplorer" >
-        <img src="rs/icons/git.jpg" alt="GitHub" className="imgs5"  />
-      </a>
+            <a href="https://github.com/raghwaniharin/SQL-601-" >
+              <img src="rs/icons/git.jpg" alt="GitHub" className="imgs5"  />
+            </a>
           </div>
         </div>
-            {/* CHESS*/}
+
         <div className="column">
           <div className="box">
-            <h1 className="redtitle">Chess Game </h1>
-            <h4><i>Under Development</i></h4>
-            <h3>JavaScript | CSS </h3>
+            <h1 className="redtitle">Convert Oracle Database to SQL RDBMS</h1>
+            <h3>SQL Server Management Studio</h3>
             <p className="listtg">
-              A browser-based <strong>Chess Game</strong> built using JavaScript and jQuery. 
-          The implementation covers piece setup, valid move calculations, rendering the board, 
-          capturing pieces, and resetting game state. This project was designed to strengthen 
-          algorithmic thinking and DOM manipulation skills.
+              Convert a company's Oracle database to SQL and redesign all the tables and sort through
+              the data to create new relationships. Rewrite field names and change field types according to
+              SQL Standards.
             </p>
             <br /><br />
-            <a href="https://github.com/raghwaniharin/ChessGame" >
-        <img src="rs/icons/git.jpg" alt="GitHub" className="imgs5"  />
-      </a>
+            <a href="https://github.com/raghwaniharin/SQL-601-" >
+              <img src="rs/icons/git.jpg" alt="GitHub" className="imgs5"  />
+            </a>
+          </div>
+        </div>
+
+        <div className="column">
+          <div className="box">
+            <h1 className="redtitle">Convert Oracle Database to SQL RDBMS</h1>
+            <h3>SQL Server Management Studio</h3>
+            <p className="listtg">
+              Convert a company's Oracle database to SQL and redesign all the tables and sort through
+              the data to create new relationships. Rewrite field names and change field types according to
+              SQL Standards.
+            </p>
+            <br /><br />
+            <a href="https://github.com/raghwaniharin/SQL-601-" >
+              <img src="rs/icons/git.jpg" alt="GitHub" className="imgs5"  />
+            </a>
           </div>
         </div>
 
         <div className="column">
           <div className="box1">
-                <div className="left">
-                <h1 className="redtitle">FALAWEWE - African Apparel Store</h1>
-                <h3>HTML5, CSS3, JavaScript & Bootstrap</h3>
-                <p className="listtg">
-                  Create a functioning website for an African apparel store selling clothes and shoes. <br></br>
-                  The client needed a themed single-layout website.<br></br>
-                  It also contains a fully functioning web-form for resposnses or queries and 
-                  a separate page for each item where a user can select size and quantity of items they need
-                </p>
-                <br></br><br></br><br></br><br></br>
-                <a 
+            <div className="left">
+              <h1 className="redtitle">FALAWEWE - African Apparel Store</h1>
+              <h3>HTML5, CSS3, JavaScript & Bootstrap</h3>
+              <p className="listtg">
+                Create a functioning website for an African apparel store selling clothes and shoes. <br></br>
+                The client needed a themed single-layout website.<br></br>
+                It also contains a fully functioning web-form for resposnses or queries and 
+                a separate page for each item where a user can select size and quantity of items they need
+              </p>
+              <br></br><br></br><br></br><br></br>
+              <a 
                 href="https://falawewebyjeetyoandharin.on.drv.tw/www.falawewe.blog/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                  >
-                    <button className="visit-button">
-                      Visit Website
-                    </button>
-                  </a>
-                  </div>
-                      <div className="right">
-                      <video width="320" height="240" controls>
-                        <source src="\rs\falaweweaud.mp4" type="video/mp4">
-                        </source>
-                      </video>
-
-                      </div>
+              >
+                <button className="visit-button">
+                  Visit Website
+                </button>
+              </a>
+            </div>
+            <div className="right">
+              <video width="320" height="240" controls>
+                <source src="\rs\falaweweaud.mp4" type="video/mp4">
+                </source>
+              </video>
+            </div>
           </div>
         </div>
 
@@ -313,7 +393,6 @@ const Projects = () => (
       </div>
     </div>
   </div>
-  
 );
 
 export default Projects;
