@@ -12,7 +12,7 @@ const Home = () => (
     </div>
     <div className="infohome">
       <p>
-      I am a Software Engineer and currently a student at Wintec.
+      I am a Software Engineer and currently a Master's student at Unitec.
        This website serves as a portfolio, showcasing my projects and highlighting my
        technical competencies and creative abilities.
 
